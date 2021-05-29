@@ -61,8 +61,8 @@ body{
 .content{
 	width: 100%;
 	position: absolute;
-	top: 20%;
-	padding-left: 110px;
+	top: 15%;
+	padding-left: 70px;
 	text-align: left;
 	color: white;
 }
@@ -70,12 +70,12 @@ body{
 
 .content h1{
 	font-size: 30px;
-	margin-top: 80px;
+	margin-top: 40px;
 
 }
 
 .content p{
-	margin: 20px auto;
+	margin: 10px auto;
 	font-weight: 100;
 	color: white;
 }
@@ -136,4 +136,14 @@ nav ul li a{
 	width: 35px;
 	margin-top: 15px;
 	 
+}
+
+@media screen and (max-width: 770px){
+	.content h1 {
+		font-size: 20px;
+	}
+	.banner-btn a{
+		display: block;
+		margin: 20px auto;
+	}
 }
