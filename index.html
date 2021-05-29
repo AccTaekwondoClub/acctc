@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html leng="en">
 <head>
+	<meta name="viewport" content="widthdevice-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" type="text/css" href="./loader.css">
 	<title>ACCTC</title>
@@ -48,12 +49,16 @@
 	var sidenav=document.getElementById("sidenav")
 	var menu=document.getElementById("menu")
 
+sidenav.style.right=="-250px";
+
 	menuBtn.onclick=function(){
 		if(sidenav.style.right=="-250px"){
 			sidenav.style.right="0";
+			menu.src="./cls.png";
 		}
 		else{
 			sidenav.style.right="-250px";
+menu.src="./ico3.png";
 		}
 	}
 </script>
