@@ -61,15 +61,15 @@ body{
 .content{
 	width: 100%;
 	position: absolute;
-	top: 15%;
-	padding-left: 70px;
+	top: 22%;
+	padding-left: 90px;
 	text-align: left;
 	color: white;
 }
 
 
 .content h1{
-	font-size: 30px;
+	font-size: 50px;
 	margin-top: 40px;
 
 }
@@ -147,9 +147,23 @@ nav ul li a{
 		display: block;
 		margin: 20px auto;
 	}
-	.banner-btn a:hover{
-	background: white;
-	color:black;
-	border: .5px solid white;
-	}
+	
+}
+
+
+
+#about{
+	width: 100%;
+	padding: 70px 0;
+}
+
+.title-text{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.title-text p{
+	margin: auto;
+	font-size: 20px;
+	color: black;
+
 }
