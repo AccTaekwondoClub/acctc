@@ -78,6 +78,7 @@ body{
 	margin: 10px auto;
 	font-weight: 100;
 	color: white;
+	font-size: 15px;
 }
 
 .banner-btn{
@@ -145,5 +146,10 @@ nav ul li a{
 	.banner-btn a{
 		display: block;
 		margin: 20px auto;
+	}
+	.banner-btn a:hover{
+	background: white;
+	color:black;
+	border: .5px solid white;
 	}
 }
