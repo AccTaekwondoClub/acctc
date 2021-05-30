@@ -186,7 +186,7 @@ border-bottom-right-radius: 35px;
 	}
 
 .title-text h1{
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .about-box{
@@ -234,4 +234,14 @@ border-bottom-right-radius: 35px;
 	border-radius: 8px;
 	color: black;
 	border:1px solid black;
+}
+
+
+.about-text p{
+	padding:0 20px;
+	text-align: initial;
+}
+
+html{
+	scroll-behavior:smooth;
 }
