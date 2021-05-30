@@ -250,3 +250,20 @@ html{
 #sidenav{
 	background-image: url(./wp.jpg);
 }
+
+
+@media screen and (max-width: 770px){
+	.title-text h1{
+		font-size: 28px;
+	}
+	.about-text p{
+		font-size: 15px;
+	}
+	.about-img{
+	flex-basis: 100%;
+	
+}
+.about-img img{
+	width: 100%;
+}
+}
