@@ -245,3 +245,8 @@ border-bottom-right-radius: 35px;
 html{
 	scroll-behavior:smooth;
 }
+
+
+#sidenav{
+	background-image: url(./wp.jpg);
+}
