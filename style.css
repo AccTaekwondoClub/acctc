@@ -197,3 +197,31 @@ border-bottom-right-radius: 35px;
 	align-items: center;
 	text-align: center;
 }
+
+.about{
+	flex-basis: 50%;
+}
+
+.about-img{
+	flex-basis: 50%;
+	margin: auto;
+}
+
+.about-img img{
+	width: 70%;
+	border-radius: 2px;
+}
+
+.about h1{
+	text-align: left;
+	margin-bottom:10px;
+	font-weight: 100;
+	color: grey;
+
+}
+
+.about-desc{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
