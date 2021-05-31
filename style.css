@@ -518,6 +518,7 @@ transform: translateY(-7px);
 @media screen and (max-width: 770px){
 .footer-left p{
 	font-size: 13px;
+	font-weight: bold;
 }
 .footer-img{
 	opacity: 0.2;
@@ -532,6 +533,7 @@ transform: translateY(-7px);
 .footer-right p{
 	font-size: 12px;
 	align-items: center;
+	font-weight: bold;
 }
 .footer-right h4{
 	font-size: 14px;
