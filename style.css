@@ -509,15 +509,30 @@ transform: translateY(-7px);
 }
 
 .social-links p{
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 20px;
 }
 
 
 @media screen and (max-width: 770px){
+.footer-left p{
+	font-size: 13px;
+}
+.footer-img{
+	opacity: 0.2;
+	align-items: right;
+}
+.social-links p{
+	font-size: 12px;
+}
 .footer-left, .footer-right{
 	flex-basis: 100%;
+}
+.footer-right p{
+	font-size: 12px;
+	align-items: center;
+}
+.footer-right h4{
 	font-size: 14px;
 }
-
 }
