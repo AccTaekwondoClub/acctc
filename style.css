@@ -378,3 +378,25 @@ hr{
 	width: 100%;
 	padding:70px 0;
 }
+
+.administration-row{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.administration-col{
+	flex-basis: 28%;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px 3px black;
+	cursor: pointer;
+}
+
+.administration-col p{
+	font-size: 14px;
+}
