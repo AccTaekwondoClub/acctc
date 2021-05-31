@@ -492,3 +492,18 @@ margin-bottom: 20px;
 	top: 20%;
 	transform: translate(-50%, 50%);
 }
+
+.social-links .fa{
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.social-links .fa:hover{
+color:#009688;
+transform: translateY(-7px);
+
+}
