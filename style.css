@@ -135,13 +135,14 @@ nav ul li a{
 #menuBtn img{
 	width: 35px;
 	margin-top: 15px;
-	
+	background: black;
+	border-radius: 8px;
 }
 
 #menuBtn img:hover{
-border-radius: 8px;
+border-radius: 7px;
 	color: black;
-	border: 3px solid black;
+	border: 3px solid #98AFC7;
 	transition: 0.15s ease;
 }
 @media screen and (max-width: 770px){
