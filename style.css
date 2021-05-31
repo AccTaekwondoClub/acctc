@@ -394,7 +394,7 @@ hr{
 	padding-top: 10px;
 	margin-bottom: 30px;
 	border-radius: 5px;
-	box-shadow: 0 5px 10px 1.5px #009688;
+	box-shadow: 0 5px 6px 1.5px #009688;
 	cursor: pointer;
 	transition:transform 0.5s;
 }
