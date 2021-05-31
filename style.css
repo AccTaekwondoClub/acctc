@@ -125,18 +125,18 @@ nav ul li a{
 #menuBtn{
 	width: 30px;
 	height: 30px;
-
 	position: fixed;
 	right: 30px;
 	top: 20px;
-	border-radius: 3px;
 	z-index: 3;
 	cursor: pointer;
 }
 #menuBtn img{
 	width: 35px;
 	margin-top: 15px;
-	 
+	border-radius: 8px;
+	color: black;
+	border: 3px solid black;
 }
 
 @media screen and (max-width: 770px){
