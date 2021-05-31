@@ -411,7 +411,7 @@ hr{
 }
 
 .user img{
-	width: 40%;
+	width: 30%;
 	margin-right: 20px;
 	border-radius: 70px;
 }
@@ -428,4 +428,12 @@ hr{
 
 .administration-col:hover{
 	transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 770px){
+.adminitration-col{
+	flex-basis: 100%;
+}
+
 }
