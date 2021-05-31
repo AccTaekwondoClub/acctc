@@ -397,10 +397,11 @@ hr{
 	box-shadow: 0 5px 6px 1.5px #009688;
 	cursor: pointer;
 	transition:transform 0.5s;
+
 }
 
 .administration-col p{
-	font-size: 14px;
+	font-size: 12px;
 }
 
 
@@ -432,9 +433,9 @@ hr{
 
 
 @media screen and (max-width: 770px){
-.adminitration-col{
+.administration-col{
 	flex-basis: 100%;
-	width: 100%;
+
 }
 
 }
