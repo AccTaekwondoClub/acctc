@@ -427,5 +427,5 @@ hr{
 }
 
 .administration-col:hover{
-	transform: translateY(7px);
+	transform: translateY(-7px);
 }
