@@ -396,6 +396,7 @@ hr{
 	border-radius: 5px;
 	box-shadow: 0 10px 20px 3px black;
 	cursor: pointer;
+	transition:transform 0.5s;
 }
 
 .administration-col p{
@@ -423,4 +424,8 @@ hr{
 
 .user-info small{
 	color: blue;
+}
+
+.administration-col:hover{
+	transform: translateY(7px);
 }
