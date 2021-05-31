@@ -400,3 +400,26 @@ hr{
 .administration-col p{
 	font-size: 14px;
 }
+
+
+.user{
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.user img{
+	width: 40%;
+	margin-right: 20px;
+	border-radius: 70px;
+}
+
+.user-info .fa{
+	margin-left: 10px;
+	color: #27c0ff;
+	font-size: 20px;
+}
+
+.user-info small{
+	color: black;
+}
