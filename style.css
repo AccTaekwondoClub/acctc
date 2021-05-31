@@ -513,6 +513,9 @@ transform: translateY(-7px);
 	margin-top: 20px;
 }
 
+.ino .fa{
+	display: flex;
+}
 
 @media screen and (max-width: 770px){
 .footer-left p{
