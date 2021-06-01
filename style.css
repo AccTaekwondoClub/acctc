@@ -636,6 +636,7 @@ transition: all .3s ease-in;
 .hero-po h1{
 	font-size: 30px;
 	position: relative;
+	margin-bottom: 80px;
 }
 
 .hero-po h1::after{
@@ -657,4 +658,56 @@ transition: all .3s ease-in;
 	border-radius: 10px;
 	box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
 	position: relative;
+}
+
+
+.card{
+	height: 300px;
+	padding: 40px;
+	color: #777;
+	line-height: 22px;
+	box-sizing: border-box;
+	background: white;
+	position: relative;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.profile img{
+	width: 90px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+
+.profile h3{
+	font-size: 26px;
+	color: #f44336;
+	margin-bottom: 8px: 
+}
+
+#slide{
+	width: 100px;
+	padding-right: 60px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+
+.sidebar{
+	width: 60px;
+	height: 100%;
+	padding-right: 15px 0;
+	box-sizing: border-box;
+	background: #f44336;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
