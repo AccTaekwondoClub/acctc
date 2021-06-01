@@ -544,7 +544,7 @@ transform: translateY(-7px);
 }
 
 .container-fluid{
-	width: 40%;
+	width: 80%;
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -552,16 +552,44 @@ transform: translateY(-7px);
 .container-fluid h2{
 	color: hotpink;
 	position: relative;
-	width: 23rem;
+	width: 100%;
+	text-align: center;
 }
 
 .container-fluid h2::after{
 	content: "";
 	position: absolute;
 	bottom: 0;
-	right: 12px;
-	width: 67px;
-	height: 2px;
 	background-color: hotpink;
+text-align: center;
+}
 
+
+.tkd{
+	width: 100%;
+	padding:0 5px;
+	border: 2px solid #6db5ff;
+	cursor: pointer;
+	border-radius: 50px;
+	margin: 20px 0;
+	align-items: center;
+}
+
+.tkd-icon{
+	margin: 4px 15px 0 0;
+	width: 30px;
+	height: 30px;
+	background:url(./uip.png) no-repeat #6db5ff;
+	border-radius: 50%;
+	float: left;
+	transition: all .5s ease-in;
+}
+
+
+.tkd h5{
+	font-size: 22px;
+	margin: 0;
+	padding:3px 0 0 0 ;
+	font-weight: normal;
+	color: black;
 }
