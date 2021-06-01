@@ -503,11 +503,11 @@ margin-bottom: 20px;
 	cursor: pointer;
 	color: black;
 
-	
+
 }
 
 .social-links .fa:hover{
-color:#009688;
+color:purple;
 transform: translateY(-7px);
 
 }
