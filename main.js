@@ -15,3 +15,9 @@ setTimeout(()=>(main.style.opacity=1),50
 }
 
 init();
+
+
+
+
+
+var acc=document
