@@ -613,6 +613,7 @@ text-align: center;
 .active {
 background-color:#009688;
 color: black; 
+transition: all .3s ease-in;
 }
 
 
