@@ -403,6 +403,8 @@ hr{
 
 .administration-col p{
 	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 
@@ -502,6 +504,8 @@ margin-bottom: 20px;
 	transition: .5s;
 	cursor: pointer;
 	color: black;
+	padding-top:8px;
+	padding-bottom: 10px;
 
 
 }
