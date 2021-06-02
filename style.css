@@ -35,10 +35,18 @@ body{
 
 .banner{
 	height: 100vh;
-	background-image: url(./ff1.jpg);
+	background-image: url(./bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	}
+
+.anime{
+	width: 600px;
+	height: 600px;
+}
+
+
+
 
 .navbar{
 	width: 85%;
@@ -153,7 +161,10 @@ border-radius: 7px;
 		display: block;
 		margin: 20px auto;
 	}
-	
+	.anime{
+		width: 300px;
+		height: 300px;
+	}
 }
 
 
@@ -730,5 +741,5 @@ transition: all .3s ease-in;
 
 .social-links span{
 	color: black;
-	
+
 }
