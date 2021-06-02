@@ -80,21 +80,21 @@ body{
 }
 
 .content p{
-	margin: 10px auto;
+	margin: 12px auto;
 	font-weight: 100;
 	color: white;
 	font-size: 15px;
 }
 
 .banner-btn{
-	margin: 70px auto 0;
+	margin: 40px auto 0;
 }
 .banner-btn a{
 	width: 120px;
 	text-decoration: none;
 	display: inline-block;
 	margin: 0 10px;
-	padding: 12px 0;
+	padding: 10px 0;
 	color: white;
 	border:.5px solid white;
 	text-align: center;
@@ -157,6 +157,7 @@ border-radius: 7px;
 	.banner-btn a{
 		display: block;
 		margin: 20px auto;
+		align-items: left;
 	}
 
 }
@@ -743,4 +744,7 @@ transition: all .3s ease-in;
 #upper .fa{
 	color: white;
 	margin-top: 20px;
+	
 }
+
+
