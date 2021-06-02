@@ -40,10 +40,7 @@ body{
 	background-position: center;
 	}
 
-.anime{
-	width: 600px;
-	height: 600px;
-}
+
 
 
 
@@ -161,10 +158,7 @@ border-radius: 7px;
 		display: block;
 		margin: 20px auto;
 	}
-	.anime{
-		width: 300px;
-		height: 300px;
-	}
+
 }
 
 
@@ -742,4 +736,10 @@ transition: all .3s ease-in;
 .social-links span{
 	color: black;
 
+}
+
+
+
+#upper .fa{
+	color: white;
 }
