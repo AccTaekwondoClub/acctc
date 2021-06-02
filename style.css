@@ -707,6 +707,7 @@ transition: all .3s ease-in;
 	border-radius: 12px;
 	box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
 	position: relative;
+	overflow: hidden;
 }
 
 
@@ -718,6 +719,7 @@ transition: all .3s ease-in;
 	box-sizing: border-box;
 	background: white;
 	position: relative;
+	z-index: 1;
 }
 
 
@@ -732,4 +734,60 @@ transition: all .3s ease-in;
 	width: 70px;
 	border-radius: 50%;
 	margin-right: 20px;
+}
+
+.profile  h3{
+	font-size: 26px;
+	color: #f44336;
+	margin-bottom: 8px;
+
+}
+
+
+#slide{
+	width: 100%;
+	padding-right: 60px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+
+.sidebar{
+	width: 60px;
+	height: 100%;
+	padding: 15px 0;
+	box-sizing: border-box;
+	background: black;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.sidebar img{
+	width: 25px;
+	padding: 5px;
+	background: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+.card::before{
+	content: '';
+	width: 110px;
+	height: 110px;
+	border-bottom-right-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
 }

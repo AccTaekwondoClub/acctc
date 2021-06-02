@@ -573,7 +573,86 @@ It doesn't matter if it's about words or about character.</p>
 	<div class="hero">
 		<h1>Reviews</h1>
 		<div class="review-box">
+
+
+
+
+
+
+
 			<div id="slide">
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>Nunisai</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>Bui</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>NuiBui</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>Nuiiiiiiii</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>Nuiui</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
+				<div class="card">
+				<div class="profile">
+					<img src="./cc.jpg">
+					<div>
+					<h3>Nui</h3>
+					<p>Sweetest Bui</p>
+				</div>
+				</div>	
+					<p>It's been a long day without my friend..</p>
+
+				</div>
+
 				<div class="card">
 				<div class="profile">
 					<img src="./cc.jpg">
@@ -587,6 +666,18 @@ It doesn't matter if it's about words or about character.</p>
 				</div>
 
 			</div>
+
+<div class="sidebar">
+	<img src="./up-arrow.png" id="uparr">
+	<img src="./down-arrow.png" id="downarr">
+
+</div>
+
+
+
+
+
+
 		</div>
 	</div>
 
@@ -661,7 +752,31 @@ It doesn't matter if it's about words or about character.</p>
 
 
 
+<script>
+	
+var slide = document.getElementById("slide");
+var uparr = document.getElementById("uparr");
+var downarr = document.getElementById("downarr");
 
+let x =0;
+
+uparr.onclick=function(){
+	if (x > "-1800") {
+		x = x- 300;
+	slide.style.top = x+ "px";
+}
+	
+}
+
+downarr.onclick=function(){
+	if (x < 0 ) {
+		x = x + 300;
+	slide.style.top = x+ "px";
+}
+	
+}
+
+</script>
 
 
 
