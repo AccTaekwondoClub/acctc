@@ -89,6 +89,7 @@ body{
 
 .banner-btn{
 	margin: 40px auto 0;
+	align-items: center;
 }
 .banner-btn a{
 	width: 120px;
@@ -141,7 +142,7 @@ nav ul li a{
 #menuBtn img{
 	width: 35px;
 	margin-top: 15px;
-	background: black;
+	background: transparent;
 	border-radius: 8px;
 }
 
@@ -153,7 +154,7 @@ border-radius: 7px;
 }
 @media screen and (max-width: 770px){
 	.content h1 {
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.banner-btn a{
 		display: block;
@@ -162,6 +163,25 @@ border-radius: 7px;
 	}
 
 }
+
+@media screen and (max-width: 320px){
+	.content h1 {
+		font-size: 25px;
+	}
+
+}
+
+
+@media screen and (max-width: 400px){
+	.content h1 {
+		font-size: 35px;
+	}
+
+}
+
+
+
+
 
 
 
