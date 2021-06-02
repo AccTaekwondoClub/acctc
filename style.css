@@ -791,3 +791,35 @@ transition: all .3s ease-in;
 	z-index: -1;
 
 }
+
+
+
+
+
+
+
+
+/*---colors---*/
+
+#ccpaccp .fa{
+
+	color: navy;
+}
+
+#mar .fa{
+	color: #006600;
+}
+
+#mk .fa{
+	color: #0000cc;
+}
+
+#mj .fa{
+	color: #800000;
+}
+
+#hr .fa{
+	color: #b3b300;
+}
+
+
