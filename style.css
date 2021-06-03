@@ -860,6 +860,10 @@ cursor: pointer;
 transition: .5s;
 }
 
+#dev-links{
+	padding: 6px;
+}
+
 /*---colors---*/
 
 #ccpaccp .fa{
