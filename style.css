@@ -637,10 +637,15 @@ transition: all .3s ease-in;
 
 
 #faqs{
-	padding-bottom: 10%;
+	padding-bottom: 30%;
+	margin-bottom: 50px;
+	margin-top: 70px;
+	
 }
 
-
+#faqs{
+	padding: 40px;
+}
 
 .social-links span{
 	color: black;
