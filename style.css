@@ -714,7 +714,9 @@ transition: all .3s ease-in;
 	z-index: 1;
 }
 
-
+.card p{
+	font-size: 14px;
+}
 .profile{
 	display: flex;
 	align-items: center;
@@ -723,18 +725,21 @@ transition: all .3s ease-in;
 }
 
 .profile img{
-	width: 70px;
+	width: 90px;
 	border-radius: 50%;
 	margin-right: 20px;
 }
 
 .profile  h3{
-	font-size: 26px;
+	font-size: 18px;
 	color: #f44336;
 	margin-bottom: 8px;
 
 }
 
+.profile p{
+	font-size: 12px;
+}
 
 #slide{
 	width: 100%;
