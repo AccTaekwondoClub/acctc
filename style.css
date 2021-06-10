@@ -951,6 +951,9 @@ transition: .5s;
 }
 
 .social-links a:hover{
-	
 	color: red;
+}
+
+#btf{
+	background:#F8F8FF;
 }
