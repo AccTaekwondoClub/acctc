@@ -898,3 +898,46 @@ transition: .5s;
 }
 
 
+/*--BTF--*/
+.dev2 {
+	width: 140px;
+	height: 145px;
+	border-radius: 50%;
+}
+
+
+.btf-io span{
+	color: green;
+}
+
+.logo-btf{
+	width: 80px;
+}
+
+#btf h4{
+font-weight: bold;
+color:red;
+padding-bottom: 10px;
+text-transform: uppercase;
+}
+
+.container-to-2{
+	padding: 60px;
+}
+
+.btf-io{
+	padding: 15px;
+}
+
+#btf .dev-pro:hover{
+box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+cursor: pointer;
+transition: .5s;
+}
+
+
+#btf .dev-pro{
+	padding: 100px 40px 30px;
+	background-color: #efefef;
+	border-radius: 20%;
+}
