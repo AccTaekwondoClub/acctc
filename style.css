@@ -700,7 +700,7 @@ transition: all .3s ease-in;
 .review-box{
 	width: 90%;
 	max-width: 700px;
-	height: 300px;
+	height: 350px;
 	border-radius: 12px;
 	box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
 	position: relative;
@@ -709,7 +709,7 @@ transition: all .3s ease-in;
 
 
 .card{
-	height: 300px;
+	height: 350px;
 	padding: 40px;
 	color: #777;
 	line-height: 22px;
@@ -791,6 +791,23 @@ transition: all .3s ease-in;
 	top: 0;
 	left: 0;
 	z-index: -1;
+
+}
+
+@media screen and (max-width: 320px){
+	.profile h3{
+		font-size: 12px;
+	}
+	.profile p{
+		font-size: 11px;
+	}
+	.profile img{
+		width: 60px;
+	}
+	.card p{
+		font-size: 10px;
+		padding-top: 0;
+	}
 
 }
 
@@ -961,7 +978,7 @@ transition: .5s;
 
 @media screen and (max-width: 320px){
 	.container-to-2{
-width: 330px;
+width: 320px;
 
 	}
 	#btf-go h3{
