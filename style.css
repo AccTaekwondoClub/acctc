@@ -957,3 +957,23 @@ transition: .5s;
 #btf{
 	background:#F8F8FF;
 }
+
+
+@media screen and (max-width: 320px){
+	.container-to-2{
+width: 330px;
+
+	}
+	#btf-go h3{
+font-size: 14px;
+	}
+}
+
+
+#btf-links .fa{
+	color: darkgreen;
+}
+
+#btf-links .fa:hover{
+	color: red;
+}
